@@ -1,0 +1,313 @@
+/* Basic code start  */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.site-top-header{
+    border:rgba(51, 51, 51, 0.10); 
+}
+
+.top-header-list{
+    display: flex;
+    align-items: center;
+    margin-left: 762px;
+}
+.top-header-item{
+    margin-left: 20px;
+}
+.top-header-navbar-link{
+    color: rgba(51, 51, 51, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.font-change{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 1.275px;
+    text-transform: uppercase;
+    
+    
+}
+
+.site-bottom-header{
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+}
+.bottom-item-img{
+    margin-right: 6px;
+    padding-top: 18px;
+}
+.bottom-generator{
+    padding-top: 26px;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+}
+.bottom-list{
+    display: flex;
+    align-items: center;
+    margin-left: 136px;
+    padding-top: 28px;
+    
+}
+.bottom-item-link{
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 46px;
+}
+.Search-tel{
+    display: flex;
+    align-items: center;
+}
+.Search{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px 10px 13px;
+    margin-top: 18px;
+    margin-left: 96px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.search-text{
+    padding-left: 8px;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 158%; /* 25.28px */
+    letter-spacing: 0.12px;
+}
+.tel{
+    padding: 8px 15px;
+    margin-top: 18px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #4762FF;
+    border-radius: 6px;
+    border: 1px solid #4762FF;
+    transition: 0.4s;
+    
+}
+.tel-text{
+    padding-left: 6px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 158%; /* 25.28px */
+    letter-spacing: 0.12px;
+}
+.tel:hover > .tel-text{
+    color: #4762FF;
+}
+.tel:hover{
+    border: 1px solid #4762FF;
+    background: transparent;
+}
+.tel:hover > .tel-icon {
+    color: #4762FF;
+}
+/* Site header end  */
+
+
+
+/* Site main start  */
+/* Site section start  */
+.konsul-main{
+    width: 1440px;
+    height: 566px;
+    margin-top: 20px;   
+    position: relative;
+    background-image: url(../images/konsul-section/Rectangle\ 1499.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+.konsul-info{
+    width: 580px;
+    position: absolute;
+    top: 110px;
+    left: 165px;
+    bottom: 122px;
+}
+.konsul-title{
+    color: #FFF;
+    padding-bottom: 16px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.konsul-text{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 32px;
+}
+.konsul-btn{
+    color: white;
+    padding: 15px 30px;
+    margin-bottom: 132px;
+    background-color: #4762FF;
+    border:  2px solid #4762FF;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.konsul-btn:hover{
+    color: white;
+    background: transparent;
+    border: 2px solid #4762FF;
+}
+.konsul-frames{
+    position: absolute;
+    top: 228px;
+    right: 91px;
+    bottom: 298px;
+    left: 1249px;
+}
+.konsul-lines{
+    position: absolute;
+    top: 534px;
+    right: 550px;
+    bottom: 30px;
+    left: 550px;
+}
+.phone-btn{
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    top: 493px;
+    right: 154px;
+    bottom: 19px;
+    left: 1232px;
+    border-radius: 50%;
+    background-color: #4762FF;
+    border: 2px solid #4762FF;
+    transition: 0.4s;
+}
+.phone-btn:hover{
+    background: transparent;
+    border: 2px solid #4762FF;
+}
+/* First section end  */
+
+
+/* About us section  start */
+
+.about-main{
+    display: flex;
+    margin-top: 68px;
+}
+.about-content{
+    width: 600px;
+    position: relative;
+    margin-left: 40px;
+}
+.about-text{
+    color: rgba(51, 51, 51, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.about-title{
+    color: #333;
+    font-size: 48px;
+    font-weight: 700;   
+    padding-bottom: 16px;
+}
+.about-link{
+    color: white;
+    position: absolute;
+    top: 355px;
+    left: 400px;
+    padding: 15px 48px;
+    background-color: #4762FF;
+    border-radius: 10px;
+    border: 2px solid #4762FF;
+    transition: 0.5s;
+}
+.about-link:hover{
+    color: #4762FF;
+    background: transparent;
+    border: 2px solid #4762FF;
+}
+/* About section end  */
+
+
+/* Katalog section start  */
+
+.katalog-top{
+    margin-top: 76px;
+    text-align: center;
+}
+.katalog-title{
+    color: #333;
+    font-size: 48px;
+    font-weight: 700;
+}
+.katalog-main{
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+}
+.katalog-start-strelka{
+    margin-right: 10px;
+}
+.katalog-cards{
+    display: flex;
+    align-items: center;
+}
+.first-card{
+    width: 250px;
+    margin-left: 30px;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.10);
+}
+.first-content{
+    width: 213px;
+    padding-bottom: 14px;
+}
+.katalog-strong{
+    color: rgba(51, 51, 51, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+}
+.katalog-text{
+    color: rgba(51, 51, 51, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.katalog-strelka-reverse{
+    margin-left: 40px;
+}
+.first-card-btn{
+    color: white;
+    padding: 9px 61px;
+    background-color: #4762FF;
+    border-radius: 10px;
+    border: 2px solid #4762FF;
+    transition: 0.4s;
+}
+.first-card-btn:hover{
+    color: #4762FF;
+    background: transparent;
+    border: 2px solid #4762FF;
+}
