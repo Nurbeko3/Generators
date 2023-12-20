@@ -103,6 +103,7 @@
     transition: 0.4s;
     
 }
+
 .tel-text{
     padding-left: 6px;
     color: #FFF;
@@ -273,6 +274,8 @@
 .first-card{
     width: 250px;
     margin-left: 30px;
+    padding: 18px 20px;
+    text-align: center;
     border-radius: 6px;
     background: #FFF;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.10);
