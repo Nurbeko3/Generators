@@ -685,6 +685,25 @@ body {
   position: relative;
 }
 
+.footer-logo {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 59px;
+  right: 1200px;
+  bottom: 264px;
+  left: 49px;
+}
+
+.footer-logo-text {
+  color: #FFF;
+  padding-left: 6px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .asosiy {
   width: 126px;
   margin-left: 105px;
@@ -776,4 +795,8 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 200% */
+}
+
+.footer-logo-img {
+  color: white;
 }/*# sourceMappingURL=main.css.map */
